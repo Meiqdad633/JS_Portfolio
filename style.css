@@ -195,7 +195,18 @@ section {
 
 .section__text__p2 {
   font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.test {
+  align-items: start;
+}
+.maintainance_text > {
+  font-size: 1.75rem;
   margin-bottom: 1rem;
+}
+.maintainance_img {
+  width: 20px;
+  height: auto;
 }
 
 .title {
@@ -434,3 +445,14 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+
+
+.details-container {
+  margin: 0.2em; /* Increased margin since the outline expands outside the element */
+  outline: solid 1px ;
+  transition: outline 0.2s linear;
+}
+
+.details-container:hover { outline-width: 2px; }
